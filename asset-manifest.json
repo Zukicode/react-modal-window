@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-modal-window/static/css/main.514f629d.css",
+    "main.js": "/react-modal-window/static/js/main.2b5261f7.js",
+    "index.html": "/react-modal-window/index.html",
+    "main.514f629d.css.map": "/react-modal-window/static/css/main.514f629d.css.map",
+    "main.2b5261f7.js.map": "/react-modal-window/static/js/main.2b5261f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.514f629d.css",
+    "static/js/main.2b5261f7.js"
+  ]
+}
