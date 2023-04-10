@@ -1,0 +1,73 @@
+.overlay {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(#000000, 0.4);
+	opacity: 0;
+	z-index: -1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: all 1s;
+
+	&.animated {
+		transition: all 1s;
+		opacity: 1;
+		z-index: 1;
+
+		.modal {
+			transition: all 1s;
+			top: 0px;
+		}
+	}
+
+	.modal {
+		width: 100%;
+		max-width: 400px;
+		height: 300px;
+		background-color: #ffffff;
+		border-radius: 12px;
+		position: relative;
+		top: 50px;
+		padding: 20px;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		box-shadow: 0px 3px 10px #515151;
+		transition: all 1s;
+
+		.modal-header {
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+
+			h1 {
+				color: #515151;
+				font-size: 26px;
+			}
+
+			button {
+				background: none;
+				border: none;
+				cursor: pointer;
+				opacity: 0.8;
+
+				img {
+					width: 25px;
+				}
+			}
+		}
+
+		.img {
+			width: 100%;
+			height: 100%;
+			background: url('https://static.wikia.nocookie.net/dc1bb4e3-313e-4520-aa26-50e59a643530/scale-to-width/370');
+			background-position: center;
+			background-size: cover;
+			border-radius: 15px;
+		}
+	}
+}

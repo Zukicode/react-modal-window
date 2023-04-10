@@ -1,0 +1,24 @@
+.show-modal {
+	padding: 10px 20px;
+	background-color: #ffffff;
+	color: #2d2d2d;
+	border: 0.5px solid transparent;
+	box-shadow: 0px 0px 5px #c1c1c1;
+	border-radius: 10px;
+	font-size: 18px;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	cursor: pointer;
+	transition: all 0.4s;
+
+	&:hover {
+		transition: all 0.4s;
+		border: 0.5px solid #c1c1c1;
+	}
+
+	span {
+		font-size: 22px;
+	}
+}
